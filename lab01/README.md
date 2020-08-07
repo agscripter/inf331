@@ -26,3 +26,7 @@ Estrutura de pastas:
 ## Arquivo do Projeto
 [Playstore OWS](orange/playstore.ows)
 
+## Projeto de Composição de Componentes para Recomendação
+
+![Diagrama de componentes para recomendação](images/Diagrama1.png)
+
