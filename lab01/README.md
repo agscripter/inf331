@@ -30,3 +30,12 @@ Estrutura de pastas:
 
 ![Diagrama de componentes para recomendação](images/Diagrama1.png)
 
+## Diagrama de Componentes
+
+![Diagrama de componentes](images/Diagrama2-Component.png)
+
+## Diagrama de Interfaces
+
+![Diagrama de interfaces](images/Diagrama2-Interfaces.png)
+
+
