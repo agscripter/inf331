@@ -30,6 +30,8 @@ Estrutura de pastas:
 
 ![Diagrama de componentes para recomendação](images/Diagrama1.png)
 
+# Projeto de Composição de Componentes para Pedido
+
 ## Diagrama de Componentes
 
 ![Diagrama de componentes](images/Diagrama2-Component.png)
