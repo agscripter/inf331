@@ -49,6 +49,7 @@ Estrutura de pastas:
 ~~~
 
 ## Tarefa Web Components 2
+~~~html
 <dcc-trigger label="Next Item" action="next/rss">
 </dcc-trigger>
 
@@ -91,3 +92,4 @@ Estrutura de pastas:
                  speech="Notícias ">
   <subscribe-dcc topic="rss/design"></subscribe-dcc>
 </dcc-lively-talk>
+~~~
