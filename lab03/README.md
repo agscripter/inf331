@@ -27,24 +27,14 @@ Estrutura de pastas:
 ## Tarefa 3
 > Coloque as imagens PNG da captura de quatro telas do seu aplicativo:
 > * tela 1 - nenhum produto selecionado
-![Tela 1](images/tela1.png)
+>![Tela 1](images/tela1.png)
 > * tela 2 - primeiro produto selecionado
-![Tela 2](images/tela2.png)
+>![Tela 2](images/tela2.png)
 > * tela 3 - segundo produto selecionado
-![Tela 3](images/tela3.png)
+>![Tela 3](images/tela3.png)
 > * tela 4 - compra de um dos produtos efetiva
-![Tela 4](images/tela4.png)
+>![Tela 4](images/tela4.png)
 > * tela 5 - diagrama de blocos do aplicativo
-![Tela 5](images/tela5.png)
+>![Tela 5](images/tela5.png)
 >
-> As telas devem ser apresentadas conforme exemplos a seguir.
-> 
-> Exemplo de uma tela do aplicativo:
->
-![Tela Aplicativo](images/aplicativo.png)
->
-> Exemplo de uma tela do diagrama de blocos:
->
-![Tela Blocos](images/blocks.png)
-
 [Arquivo AIA](aplicativo.aia)
