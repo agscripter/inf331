@@ -3,8 +3,8 @@
 ### Serviço `GitHub v3 API`
 
 * **Título do serviço**: `Lista dee repositórios para um usuário`
-* **Breve descrição**: A API retorna todos os repositórios para um usuário dado um nome de usuário: https://developer.github.com/v3/repos/#list-repositories-for-a-user
-  > Breve descrição do serviço
+* **Breve descrição**: 
+  > A API retorna todos os repositórios para um usuário dado um nome de usuário: https://developer.github.com/v3/repos/#list-repositories-for-a-user
 * **URL completa da requisição**: `https://api.github.com/users/agscripter/repos&sort=full_name`
 * **Cabeçalho HTTP da chamada**:
 ~~~http
@@ -130,7 +130,7 @@ X-GitHub-Request-Id: 218C:0EBC:FA9B15:1AB6AF5:5F484F43
       "key": "apache-2.0",
       "name": "Apache License 2.0",
       "spdx_id": "Apache-2.0",
-curl -i https://api.github.com/users/agscripter/repos&sort=full_name      "url": "https://api.github.com/licenses/apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
       "node_id": "MDc6TGljZW5zZTI="
     },
     "forks": 0,
