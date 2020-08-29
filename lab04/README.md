@@ -1,3 +1,29 @@
+# Modelo para Apresentação do Lab04 - Serviços
+
+Estrutura de pastas:
+
+~~~
+├── README.md  <- arquivo apresentando a tarefa
+│
+└── images     <- arquivos de imagens usadas no documento
+~~~
+
+## Tarefa 1
+> Coloque a imagem do PNG do seu diagrama como ilustrado abaixo:
+> 
+> ![Diagrama de Orquestração](images/componentizacao-negocio.png)
+
+## Tarefa 2
+> Coloque a imagem do PNG do seu diagrama como ilustrado abaixo:
+> 
+> ![Diagrama de Orquestração](images/componentizacao-tecnico-view.png)
+
+## Tarefa 3
+> Coloque a imagem do PNG do seu diagrama como ilustrado abaixo:
+> 
+> ![Diagrama de Orquestração](images/componentizacao-tecnico-model.png)
+
+
 ## Tarefa 4
 
 ### Serviço `GitHub v3 API`
