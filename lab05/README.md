@@ -23,22 +23,41 @@ Link para o projeto no Codepen: [React 03 - Componente Barra](https://codepen.io
 <div id="root"></div>
 ~~~
 
+**CSS**
+~~~css
+.carro {
+  width:100px;
+  display:inline-block;
+}
+
+.carro img {
+  width:100%;
+  height: auto;
+}
+
+.carro span {
+  font-weight: bold;
+  font-size: 20px;
+}
+~~~
+
 **JavaScript**
 ~~~javascript
-class Barra extends React.Component {
+class Carro extends React.Component {
   render() {
-    let resultado = "";
-    for (let b = 1; b <= this.props.tamanho; b++)
-      resultado += "=";
-    return resultado;
+    return <div className="carro">
+      <img width="50" height="auto" src={this.props.imgSrc}/>
+      <span>{this.props.nome}</span>
+      </div>;
   }
 }
 
 const elemento = <div>
-                   <h2>O dinossauro</h2>
-                   <Barra tamanho="10"/>
-                   <h2>pulou na lama.</h2>
+                   <h2>Carro Importados</h2>
+                   <Carro nome="Ferrari" imgSrc="https://s2.glbimg.com/bS7gv8nR9OuyA_m14nH_2BG-DfE=/512x320/smart/e.glbimg.com/og/ed/f/original/2020/05/30/ferrari_f8_tributo.jpg"/>
+                           <Carro nome="Lamborghini" imgSrc="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-lamborghini-huracan-evo-104-1576597210.jpg?crop=0.889xw:1.00xh;0.111xw,0&resize=640:*"/>
                  </div>
 ReactDOM.render(elemento, 
         document.getElementById("root"));
+
 ~~~
